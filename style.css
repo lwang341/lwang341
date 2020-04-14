@@ -1,0 +1,252 @@
+/** Add any CSS you need to this file. */
+body{
+    background-color: #ffffc1 ;
+    display: block;
+    position: absolute;
+}
+header{
+    width: 100%;
+    background-color: #bfd8d5; 
+}
+header div h1{
+    font-size: 350%;
+    font-family: IndieFlower-Regular;
+    font-weight: bold;
+    white-space: nowrap;
+    color:#ffffc1 ; 
+     display:inline-block; 
+}
+#logo{
+    width:15%;
+    height:15%;
+}
+#header{
+    margin:0 auto;
+    width:80%;
+    padding-top: 2%;
+    padding-left: 20%;
+}
+@font-face {
+    font-family: FrederickatheGreat-Regular;
+    src: url(FrederickatheGreat-Regular.ttf);     
+}
+@font-face {
+    font-family: IndieFlower-Regular;
+    src: url(IndieFlower-Regular.ttf);      
+}         
+#instruction{
+    margin-left: 5%;
+}
+#instructioncontent{ 
+     font-size: 160%;
+    font-family: FrederickatheGreat-Regular;
+    color:#616161;   
+}
+#aside1,#aside2{
+    margin-top:0;
+    margin-right: 2%;
+    height:2%;
+    width:15%;
+    padding:0 0 10% 0;
+    font-size: 120%;
+    background-color: #bfd8d5;
+    float: left;
+}
+#l1{
+    padding:20% 0 20% 10%;
+}
+#l2{
+    padding:20% 0 20% 10%;
+}
+nav ul li img{
+    height: 80%;
+    width: 80%;
+}
+nav ul li a p{
+    text-align: center;
+    font-family: IndieFlower-Regular;
+    font-weight: bold;
+    color:#ba78cd;
+}
+nav ul {
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;		   
+    background-color: #bfd8d5;
+}  	
+nav ul li img{
+    display: block;
+    margin:0 auto;
+
+}
+#subtitle{
+    text-align: center;
+    font-size: 90%;
+    font-family: FrederickatheGreat-Regular;
+    color:#ba78cd;
+}
+#grid{
+    margin:0;
+    padding-top: 2%;
+}
+#grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap:1%;
+    padding:1%; 
+}
+main div div{
+    padding:6% 5% 2% 5%;
+    border-style: solid;
+    border-color: #bfd8d5;
+}	
+ main div div img{
+    display: block;
+    width:50%;
+    margin:0 auto;
+    height: 200px;
+    width: 170px;
+} 	
+#account{
+   text-align: center;
+    font-size: 130%;
+    font-family: FrederickatheGreat-Regular;
+    color:#ba78cd;
+}
+#formcontainer{
+    display: inline-block;  
+    width:60%;  
+}
+form{  
+    color:#0060ca;
+    font-weight: bold;
+    font-size: 70%;
+}
+#asidenav{
+    height:100%;
+}
+footer{
+    background-color:#bfd8d5;
+    display: block;
+    position: relative;
+    margin-top:50%;
+}
+footer p{
+    color: #ffffc1;
+    display: inline-block;
+    font-size: 100%;
+}
+footer form p{
+    font-size: 100%;
+}
+.clear { clear: both; }
+#subscribe{
+    display: inline-flex;
+    float: right;
+}
+#ordernumber{ display:none;}
+
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;} 
+}
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+img { 
+    max-width: 100%;
+    height: auto;
+}
+@media (min-width: 640px) { 
+    body {font-size:1rem;} 
+} 
+@media (min-width:960px) { 
+    body {font-size:1.2rem;} 
+} 
+@media (min-width:1100px) {
+     body {font-size:1.5rem;} 
+    } 
+@media (max-width: 1024px){
+    footer{
+        font-size: 80%;
+        margin-top: 100%;
+    }
+    #grid-container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+  @media (max-width: 768px){
+    header div h1{
+        font-size: 210%;
+    }
+    .description{
+        display: none;
+    }
+    #grid-container{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    footer{
+        margin-top: 240%;
+    }
+    #subscribe{
+        width:100%;
+        display:block;
+        float: left;
+        background-color:#bfd8d5;
+    }
+        @media (max-width: 480px){
+
+             header{ min-width: 320px;}
+             header div h1{
+                 font-size: 130%;
+             }
+             #instruction{
+                 display: none;
+             }
+             nav ul li a p{
+                 font-size: 80%;
+             }
+             #grid{
+                 width:80%;
+                 margin-left: 15%;
+             }
+             main div div{
+                padding:2% 1% 0 2%;
+            }	
+            #grid-container{
+                display: grid;
+                grid-template-columns: auto;
+            }
+            #aside2{
+                display: block;
+                width:100%;
+            }
+            #account{
+                float: left;
+               white-space: nowrap;
+            }
+            #formcontainer{ 
+                display: block;
+                width: 10%;
+            }
+            footer{
+                margin-top: 1300%;
+            }             
+            @media (max-width: 320px){
+                header{ min-width: 240px;}
+                #grid{
+                    width:80%;
+                    margin-left: 10%;
+                }
+                footer{
+                    margin-top: 1750%;
+                }     
+            }
+        }   
+    }   
+}
+
+
