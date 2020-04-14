@@ -218,7 +218,7 @@ html { font-size:100%; }
         grid-template-columns: auto auto;
     }
     footer{
-        margin-top: 150%;
+        margin-top: 100%;
     }
     #subscribe{
         width:100%;
@@ -263,7 +263,7 @@ html { font-size:100%; }
                 width: 10%;
             }
             footer{
-                margin-top: 200%;
+                margin-top: 120%;
             }
 
             }   
