@@ -1,6 +1,6 @@
 /** Add any CSS you need to this file. */
 body{
-    background-color: #fcf7bb;
+    background-color: #ffffc1;
     display: block;
     position: absolute;
 }
@@ -9,7 +9,7 @@ body{
 } */
 header{
     width: 100%;
-    background-color: #bfd8d5; 
+    background-color: #00bdaa; 
 
 }
 header div h1{
